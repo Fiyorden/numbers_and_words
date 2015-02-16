@@ -2,7 +2,7 @@ fr:
   numbers:
     ones: [zéro, un, deux, trois, quatre, cinq, six, sept, huit, neuf]
     teens: [dix, onze, douze, treize, quatorze, quinze, seize, dix-sept, dix-huit, dix-neuf]
-    tens: [zéro, dix, vingt, trente, quarante, cinquante, soixante, soixante-dix, quatre-vingt, quatre-vingt-dix]
+    tens: [zéro, dix, vingt, trente, quarante, cinquante, soixante, septante, quatre-vingt, nonante]
     mega: [ones, thousands, millions, billions, trillions, quadrillions, quintillion, sextillions, septillions, octillions, nonillions, decillions]
     eighty: quatre-vingts
     hundreds:
