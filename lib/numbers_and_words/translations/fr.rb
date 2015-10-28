@@ -12,7 +12,8 @@ module NumbersAndWords
 
       def tens_with_ones numbers, options = {}
         if [7, 9].include? numbers[1]
-          [tens(numbers[1] - 1, :alone => false), teens(numbers)].join '-'
+          union = numbers[0] == 1 ? ' et ' : '-'
+          [tens(numbers[1], :alone => false), ones(numbers[0])].join union
         else
           union = numbers[0] == 1 ? ' et ' : '-'
           [tens(numbers[1], :alone => false), ones(numbers[0])].join union
